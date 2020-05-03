@@ -1,3 +1,5 @@
+
+
 var akanMale = ['kwasi','Kwadwo','Kwabena','Kwaku','Yaw','kofi','Kwame'];
 var akanFemale = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
 var dayOfTheWeek =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
@@ -11,15 +13,15 @@ function results() {
     var akan; 
 
     if(day <1 || day >31){
-        alert("invalid date");
+        alert("Enter valid day");
             return false;
     }
-    if (month <1 || month>12){
-        alert("Invalid month");
+    else if(month <1 || month>12 ||(month==2 && day>29)){
+        alert("Enter valid day");
         return false;
     }
-    if(year <1900 || year >2030){
-            alert("invalid year");
+    else if(year <1900 || year >2030){
+            alert("Enter valid year");
             return false;
     }
 
@@ -29,6 +31,7 @@ function results() {
             akan =akanFemale[day2];
     }
             alert("You were born on   " + dayOfTheWeek [day2] + "  and your akan name is " + akan);
+            document.getElementById('akan').innerHTML="You were born on   " + dayOfTheWeek [day2] + "  and your akan name is " + akan;
 }
 function print(){
     var gender=document.getElementsByName("gender");
@@ -39,3 +42,4 @@ function print(){
     }
 
 }
+

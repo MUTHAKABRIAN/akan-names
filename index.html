@@ -34,7 +34,7 @@
             soul and character of the person.
           </p>
         </div>
-        <div class="form">
+        <div class="form" id="form">
           <label>YEAR OF BIRTH</label><br />
           <input
             type="number"
@@ -44,7 +44,7 @@
             step="1"
             placeholder="YYYY"
             value=""
-          />
+            required/>
           <br /><br />
 
           <label>BIRTH MONTH:</label><br />
@@ -56,8 +56,8 @@
             max="12"
             step="1"
             placeholder="MM"
-            value="4"
-          /><br /><br />
+            value=""
+          required/><br /><br />
 
           <label>Day OF BIRTH </label><br />
           <input
@@ -68,7 +68,7 @@
             max="31"
             placeholder="DD"
             value=""
-          /><br /><br />
+            required/><br /><br />
           <label>GENDER</label><br />
           <div id="gender">
             <input
@@ -82,13 +82,23 @@
             <input type="radio" name="gender" value="female" />Female<br />
           </div>
           <input
-            type="submit"
+            type="button"
             value="Submit"
             class="btn btn-primary btn-lg"
             onclick="results()"
           />
+         
         </div>
       </div>
+      <div class="akan">
+        <h6 id="akan">
+
+      </div> <input
+      type="button"
+      value="Reset"
+      class="btn btn-primary btn-lg"
+      onclick="myFunction()"
+    />
       <script src="js/script.js"></script>
 
       <script

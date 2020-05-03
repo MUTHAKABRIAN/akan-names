@@ -10,8 +10,8 @@ p {
   color: black;
   text-align: center;
 }
-label{
-    text-align: center;
+label {
+  text-align: center;
 }
 .form {
   text-align: center;
@@ -21,4 +21,17 @@ label{
 }
 #gender {
   color: antiquewhite;
+}
+.akan{
+  height:300px;
+  text-indent: 40%;
+  
+}
+#akan {line-height: 1.6em;
+  font-weight: 600;
+  background-color: rgb(207, 203, 203);
+  color: green;
+  box-sizing:border-box;
+  line-height: 1.6em;
+  font-weight: 600;
 }

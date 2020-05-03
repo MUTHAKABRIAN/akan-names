@@ -1,3 +1,5 @@
+@import url('animate.css');
+
 body {
   background-attachment: fixed;
   background-image: url("/image/IMG1.jpg");

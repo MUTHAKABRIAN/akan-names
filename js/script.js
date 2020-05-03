@@ -34,17 +34,8 @@ function results() {
   } else {
     akan = akanFemale[day2];
   }
-  alert(
-    "You were born on   " +
-      dayOfTheWeek[day2] +
-      "  and your akan name is " +
-      akan
-  );
-  document.getElementById("akan").innerHTML =
-    "You were born on   " +
-    dayOfTheWeek[day2] +
-    "  and your akan name is " +
-    akan;
+  alert("You were born on   " + dayOfTheWeek[day2] +"  and your akan name is " + akan );
+  document.getElementById("akan").innerHTML ="You were born on   " + dayOfTheWeek[day2] + "  and your akan name is " + akan;
 }
 function print() {
   var gender = document.getElementsByName("gender");

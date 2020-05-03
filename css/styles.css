@@ -1,9 +1,11 @@
 body {
   background-attachment: fixed;
-  background-image: url("../image/IMG1.jpg");
+  background-image: url("../image/IMG1.jpg")  ;
   color: black;
   background-size: cover;
   background-repeat: no-repeat;
+  object-fit: cover;
+  background-blend-mode: multiply;
 }
 p {
   font-size: 30px;
@@ -24,15 +26,23 @@ label {
 }
 .akan {
   height: 300px;
-  text-indent: 40%;
+  text-indent: 30%;
   padding: 30px;
 }
 #akan {
   line-height: 1.6em;
-  font-weight: 600;
+  font-weight: 700;
   background-color: rgb(207, 203, 203);
   color: green;
-  box-sizing: border-box;
-  line-height: 1.6em;
+  box-sizing: border-box; opacity:0.7;
+  line-height: 1.9;
   font-weight: 600;
+  text-align: center;
+  margin:  auto;
+  padding-right: 30%;
+  padding-left: 10%;
+
+}
+.jumbotron{
+  opacity: 0.7;
 }

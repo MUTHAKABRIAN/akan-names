@@ -1,26 +1,24 @@
-body{
-    background-attachment: fixed;
-    background-image: url("/image/IMG1.jpg");
-    color:black;
-    background-size: cover;
-    background-repeat: no-repeat;
+body {
+  background-attachment: fixed;
+  background-image: url("/image/IMG1.jpg");
+  color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-p{
-    font-size: 30px;
-    color:black;
-    text-align: center;
+p {
+  font-size: 30px;
+  color: black;
+  text-align: center;
 }
-label{
-    text-align: center;
+label {
+  text-align: center;
 }
-.form{
-    text-align: center;
+.form {
+  text-align: center;
 }
-.form label{
-    color: black;
-
+.form label {
+  color: black;
 }
 #gender {
-    color: antiquewhite;
-
+  color: antiquewhite;
 }
